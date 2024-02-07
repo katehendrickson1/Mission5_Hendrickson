@@ -1,0 +1,55 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url('../yarnstash.jpg');
+}
+
+.image-container {
+    display: flex;
+}
+
+.small-image {
+    width: 50px; /* Adjust the width as per your requirements */
+    height: auto;
+    margin-right: 10px; /* Adjust the margin as needed to create space between images */
+}
+
+.hourly-charge {
+    border: 1px solid #25394f;
+    padding: 10px;
+    font-size: 20px; 
+    color: #25394f;
+    background-color: #f3eeee;
+    display: inline-block; /* Adjust display property as needed */
+}
+h5 {
+    color: #25394f;
+}
+
+.content-container {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with 90% opacity */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+/* Additional styles for your text content */
+h1, p {
+    color: #333; /* Text color */
+}

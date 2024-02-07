@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+}
+<div class="content-container">
+    <h1>@ViewData["Title"]</h1>
+
+    <div>
+    <p>Joining my knitting club would of course be free.</p>
+    <p> However, if you would like private lessons, here are my rates:</p>
+    </div>
+
+    <div class="hourly-charge">
+        Hourly Rate: $0.25
+        <br />
+        (it's basically free... I just wanna knit with you!)
+    </div>
+
+    <form class="userInput">
+        <label>Please enter the number of lesson hours you would like: </label>
+        <input type="text" id="numHours" />
+        <br />
+        <button class="hourly-charge" type="button" id="calculateButton">
+            Calculate your knitting costs!
+        </button>
+        <br />
+        <br />
+        <h5 class="hourly-charge" id="displayCost"></h5>
+    </form>
+</div>
